@@ -1,24 +1,24 @@
 [package]
-name = "tree-sitter-htmldjango"
-description = "A tree-sitter grammar for the Django template language"
+name = "tree-sitter-mdjinja"
+description = "A tree-sitter grammar for the mdjinja language"
 version = "1.0.0"
-authors = ["William Vandervalk"]
+authors = ["benexl"]
 license = "MIT"
 readme = "README.md"
-keywords = ["incremental", "parsing", "tree-sitter", "htmldjango"]
+keywords = ["incremental", "mdjinja", "parsing", "tree-sitter"]
 categories = ["parser-implementations", "parsing", "text-editors"]
-repository = "https://github.com/interdependence/tree-sitter-htmldjango"
+repository = "git@github.com:Benexl/tree-sitter-mdjinja.git"
 edition = "2021"
 autoexamples = false
 
 build = "bindings/rust/build.rs"
 include = [
+  "LICENSE",
   "bindings/rust/*",
   "grammar.js",
   "queries/*",
   "src/*",
   "tree-sitter.json",
-  "LICENSE",
 ]
 
 [lib]
@@ -27,8 +27,8 @@ path = "bindings/rust/lib.rs"
 [dependencies]
 tree-sitter-language = "0.1"
 
-[build-dependencies]
-cc = "1.2"
-
 [dev-dependencies]
 tree-sitter = "0.25.1"
+
+[build-dependencies]
+cc = "1.2"

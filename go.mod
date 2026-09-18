@@ -1,4 +1,4 @@
-module github.com/interdependence/tree-sitter-htmldjango
+module github.com/Benexl/tree-sitter-mdjinja
 
 go 1.22
 

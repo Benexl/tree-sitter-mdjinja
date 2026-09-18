@@ -1,12 +1,12 @@
 {
-  "name": "tree-sitter-htmldjango",
+  "name": "tree-sitter-mdjinja",
   "version": "1.0.0",
-  "description": "A tree-sitter grammar for the Django template language",
-  "repository": "https://github.com/interdependence/tree-sitter-htmldjango",
+  "description": "A tree-sitter grammar for the md jinja language",
+  "repository": "https://github.com/Benexl/tree-sitter-mdjinja",
   "license": "MIT",
   "author": {
-    "name": "William Vandervalk",
-    "url": "https://williamvandervalk.com/"
+    "name": "benexl",
+    "url": "https://github.com/Benexl"
   },
   "main": "bindings/node",
   "types": "bindings/node",
@@ -14,7 +14,7 @@
     "incremental",
     "parsing",
     "tree-sitter",
-    "htmldjango"
+    "mdjinja"
   ],
   "files": [
     "grammar.js",

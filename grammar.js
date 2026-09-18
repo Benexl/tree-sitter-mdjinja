@@ -1,5 +1,5 @@
 module.exports = grammar({
-  name: "htmldjango",
+  name: "mdjinja",
 
   word: $ => $._identifier,
 

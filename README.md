@@ -1,4 +1,4 @@
-# tree-sitter-htmldjango
+# tree-sitter-mdjinja
 
 Django template language grammar for [tree-sitter][].
 

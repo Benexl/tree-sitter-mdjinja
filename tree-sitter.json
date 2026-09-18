@@ -23,8 +23,8 @@
     "description": "A tree-sitter grammar for the md jinja",
     "authors": [
       {
-        "name": "William Vandervalk",
-        "url": "https://williamvandervalk.com/"
+        "name": "benexl",
+        "url": "https://github.com/Benexl"
       }
     ],
     "links": {
